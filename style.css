@@ -251,6 +251,50 @@ li{
     background: blue;
     font-size: 6rem;
 }
+@media screen and (max-width:635px) {
+.home{
+    height: 100vh;
+    background: url('./image/newp.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* align-items: center; */
+    padding: 0 0%;
+}
+.header{
+    /* position: fixed; */
+    top: 10px;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100; */
+}
+    .btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border: 2px solid #00abf0;
+    background: #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    padding: 0 10px 10px 0;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}
+}
 @media screen and (max-width: 1280px) {
   .skill{
     grid-template-columns: 1fr 1fr;
@@ -262,4 +306,26 @@ li{
     max-width: 500px;
     margin: 20px auto;
   }
+  .home-content h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 320px) {
+    .home-sci{
+        position: fixed;
+        /* margin-top: 690px; */
+    }
+    .btn-box a{
+        height: 8vh;
+        width: 50vw;
+        display: flex;
+        justify-content: baseline;
+    }
+    .home{
+        height: 120vh;
+        width: auto;
+    }
+    .home-content h1{
+        font-size: 1.5rem;
+    }
 }
