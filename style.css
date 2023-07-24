@@ -253,7 +253,6 @@ li{
 @media screen and (max-width:635px) {
 .home{
     height: 100vh;
-    background: url('./image/newp.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
