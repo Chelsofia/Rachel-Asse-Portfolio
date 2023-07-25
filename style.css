@@ -330,7 +330,7 @@ li{
 @media (max-width: 1048px) {
     label.logo{
         font-size: 32px;
-        padding-left: 60px;
+/*         padding-left: 60px; */
     }
     nav ul{
         margin-right: 20px;
@@ -378,6 +378,9 @@ li{
     }
 }
 @media screen and (max-width: 320px) {
+    .home-content p{
+    margin: 20px 0 110px;
+   }
     .btn-box a{
         height: 8vh;
         width: 50vw;
