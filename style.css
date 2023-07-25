@@ -269,15 +269,6 @@ li{
     background: blue;
     font-size: 6rem;
 }
-@media screen and (max-width: 720px) {
-    #menu{
-        display: block;
-        font-size: 2rem;
-        float: right;
-        margin-top: 60px;
-    }
-   
-}
 @media screen and (max-width:635px) {
 .home{
     height: 100vh;
