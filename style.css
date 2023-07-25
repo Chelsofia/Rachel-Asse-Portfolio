@@ -378,10 +378,6 @@ li{
     }
 }
 @media screen and (max-width: 320px) {
-    .home-sci{
-        position: fixed;
-        /* margin-top: 690px; */
-    }
     .btn-box a{
         height: 8vh;
         width: 50vw;
