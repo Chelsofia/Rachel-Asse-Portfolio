@@ -272,11 +272,11 @@ li{
 @media screen and (max-width:635px) {
 .home{
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
+/*     background-size: cover;
+    background-position: center; */
+/*     display: flex; */
     /* align-items: center; */
-    padding: 0 0%;
+/*     padding: 0 0%; */
 }
 .header{
     /* position: fixed; */
@@ -286,10 +286,10 @@ li{
     width: 100%;
     padding: 20px 10%;
     background: transparent;
-    display: flex;
-    flex-direction: row;
+/*     display: flex; */
+/*     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     /* z-index: 100; */
 }
     .btn-box a {
