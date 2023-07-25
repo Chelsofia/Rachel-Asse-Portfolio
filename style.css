@@ -186,8 +186,8 @@ nav #icon{
     background: transparent;
     padding: 0 10%;
     margin: 80px auto;
-/*     border-radius: 30px; */
-/*     box-shadow: 0px 0px 2px 2px rgb(134, 129, 129); */
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 2px rgb(134, 129, 129);
 }
 .about{
     width: auto;
