@@ -8,7 +8,7 @@ body{
     background: #081b29;
     color: #ededed;
 }
-.header{
+/* .header{
     position: fixed;
     top: 0;
     left: 0;
@@ -20,22 +20,41 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-}
+} */
 .logo{
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
-.navbar a {
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a {
     font-size: 18px;
     color:#ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    padding: 7px 10px;
 }
-.navbar a:hover, .navbar a.active{
+nav a:hover, nav a.active{
     color: #00abf0;
+    transition: .5s;
+}
+nav #icon{
+    color: #ededed;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 .home{
     height: 100vh;
@@ -306,6 +325,56 @@ li{
   }
   .home-content h1{
         font-size: 1.5rem;
+    }
+}
+@media (max-width: 1048px) {
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a {
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px) {
+    nav #icon{
+        display: block;
+        /* position: fixed; */
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        color:#00abf0;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+@media (max-width: 550px) {
+    nav .logo{
+        font-size: 20px;
+    }
+   .home-content h1{
+        font-size: 36px;
     }
 }
 @media screen and (max-width: 320px) {
