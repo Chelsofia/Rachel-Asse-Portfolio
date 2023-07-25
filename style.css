@@ -378,6 +378,10 @@ li{
     }
 }
 @media screen and (max-width: 320px) {
+    .home-sci{
+        position: relative;
+        margin-top: 700px;
+    }
     .home-content p{
     margin: 20px 0 110px;
    }
