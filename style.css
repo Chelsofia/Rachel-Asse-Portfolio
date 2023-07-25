@@ -60,7 +60,7 @@ nav #icon{
     height: 100vh;
     background-size: cover;
     background-position: center;
-/*     display: flex; */
+    display: block;
     align-items: center;
     padding: 0 10%;
 }
@@ -342,7 +342,7 @@ li{
 @media (max-width: 909px) {
     nav #icon{
         display: block;
-        /* position: fixed; */
+        margin-right: 20px;
     }
     nav ul{
         position: fixed;
