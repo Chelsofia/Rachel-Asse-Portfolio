@@ -60,7 +60,7 @@ nav #icon{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    display: block;
+    display: flex;
     align-items: center;
     padding: 0 10%;
 }
