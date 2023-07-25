@@ -347,8 +347,8 @@ li{
     nav ul{
         position: fixed;
         width: 100%;
-        height: 100vh;
-        background: #2f3640;
+        height: 50vh;
+        background: #1e2329;
         top: 80px;
         left: -100%;
         text-align: center;
