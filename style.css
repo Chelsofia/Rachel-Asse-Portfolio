@@ -284,20 +284,20 @@ li{
         bottom: 0px;
         top:800px;
     }
-.header{
+/* .header{ */
     /* position: fixed; */
-    top: 10px;
+/*     top: 10px;
     left: 0;
     height: 5%;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 10%; */
     background: transparent;
 /*     display: flex; */
 /*     flex-direction: row;
     justify-content: space-between;
     align-items: center; */
     /* z-index: 100; */
-}
+/* } */
     .btn-box a {
     position: relative;
     display: inline-flex;
