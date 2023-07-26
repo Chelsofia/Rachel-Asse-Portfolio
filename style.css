@@ -278,6 +278,12 @@ li{
     /* align-items: center; */
 /*     padding: 0 0%; */
 }
+     .home-sci{
+        position: absolute;
+        margin-top: 700px;
+        bottom: 0px;
+        top:800px;
+    }
 .header{
     /* position: fixed; */
     top: 10px;
@@ -370,6 +376,12 @@ li{
     }
 }
 @media (max-width: 550px) {
+     .home-sci{
+        position: absolute;
+        margin-top: 700px;
+        bottom: 0px;
+        top:800px;
+    }
     nav .logo{
         font-size: 20px;
     }
